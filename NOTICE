@@ -1,0 +1,26 @@
+pathology-llava
+Copyright (c) 2025 Stefano Roy Bisignano
+
+This project provides wrapper code that integrates third-party models:
+
+- Pathology-LLaVA / PA-LLaVA
+  (code and weights licensed under Apache-2.0 by the original authors,
+   available at https://huggingface.co/OpenFace-CQUPT/Pathology-LLaVA).
+
+- PLIP (vinid/plip)
+  (a CLIP-style vision model released as a research output for research
+   communities; the model card describes its intended research-only use).
+
+- Meta LLaMA 3
+  (language model released by Meta under the Meta Llama 3 Community
+   License; see the LICENSE file in the corresponding Meta repositories).
+
+- XTuner
+  (toolkit for efficient fine-tuning of LLMs and VLMs, Apache-2.0).
+
+This repository does not redistribute any third-party weights. All such
+weights must be obtained from their original authors and are governed by
+their respective licenses.
+
+Meta Llama 3 is licensed under the Meta Llama 3 Community License,
+Copyright (c) Meta Platforms, Inc. All Rights Reserved.

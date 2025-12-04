@@ -1,0 +1,13 @@
+{
+  "model_type": "pathology-llava",
+  "architectures": ["PathologyLLaVAForConditionalGeneration"],
+  "auto_map": {
+    "AutoConfig": "pathology_llava.configuration_pathology_llava.PathologyLLaVAConfig",
+    "AutoModelForCausalLM": "pathology_llava.modeling_pathology_llava.PathologyLLaVAForConditionalGeneration",
+    "AutoProcessor": "pathology_llava.processing_pathology_llava.PathologyLLaVAProcessor"
+  },
+  "vision_tower_name_or_path": "vinid/plip",
+  "llm_name_or_path": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "projector_path": "OpenFace-CQUPT/Pathology-LLaVA", 
+  "torch_dtype": "float16"
+}
